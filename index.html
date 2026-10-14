@@ -1,12 +1,42 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <p>Autor: Henry Montalván</p>
-        <p>Curso Java Script</p>
-        <p>Descripción: Juegos para atrapar limones y comer alimentos   </p>
-        <a href="https://atraparlimonesdisenomoderno.vercel.app/">IR A JUEGO ATRAPAR LIMONES </a>
-        <br>
-        <a href="https://juegocazando-gold.vercel.app/">IR A JUEGO CAZANDO </a>
-    </body>
-
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Colección de videojuegos desarrollados durante el curso de JavaScript.">
+  <title>Mis videojuegos | Curso JavaScript</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="decoracion decoracion-uno" aria-hidden="true"></div>
+  <div class="decoracion decoracion-dos" aria-hidden="true"></div>
+  <div class="pagina">
+    <header class="cabecera">
+      <a class="marca" href="#inicio" aria-label="Ir al inicio"><span class="marca-icono">&lt;/&gt;</span><span>JavaScript <strong>Arcade</strong></span></a>
+      <span class="etiqueta-curso">PROYECTOS DEL CURSO</span>
+    </header>
+    <main id="inicio">
+      <section class="presentacion" aria-labelledby="titulo">
+        <span class="insignia"><span class="punto"></span> Mis proyectos de programación</span>
+        <h1 id="titulo">Aprender a programar<br><span>también es jugar.</span></h1>
+        <p>Explora mis videojuegos creados con HTML, CSS y JavaScript. Dos proyectos para practicar programación de una manera divertida.</p>
+        <div class="autor"><span class="avatar" aria-hidden="true">HM</span><div><span class="autor-etiqueta">DESARROLLADO POR</span><strong>Henry Montalván</strong></div></div>
+      </section>
+      <section class="proyectos" aria-labelledby="proyectos-titulo">
+        <div class="seccion-encabezado"><div><span class="sobrelinea">EXPLORA Y JUEGA</span><h2 id="proyectos-titulo">Mis videojuegos <span class="contador">02</span></h2></div><span class="disponibles">● Disponibles en línea</span></div>
+        <div class="cuadricula">
+          <article class="tarjeta tarjeta-limones">
+            <div class="ilustracion" aria-hidden="true"><span class="ilustracion-brillo"></span><span class="emoji-principal">🍋</span><span class="emoji-secundario">🍋</span><span class="suelo"></span></div>
+            <div class="tarjeta-contenido"><span class="tipo">JUEGO 01 · DESTREZA</span><h3>Atrapar Limones</h3><p>Mueve al personaje, atrapa los limones y consigue puntos antes de quedarte sin vidas.</p><a class="boton boton-limon" href="https://atraparlimonesdisenomoderno.vercel.app/" target="_blank" rel="noopener noreferrer">Jugar ahora <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="tarjeta tarjeta-cazando">
+            <div class="ilustracion" aria-hidden="true"><span class="ilustracion-brillo"></span><span class="emoji-principal">🐱</span><span class="emoji-secundario">🍖</span><span class="suelo"></span></div>
+            <div class="tarjeta-contenido"><span class="tipo">JUEGO 02 · AVENTURA</span><h3>Cazando</h3><p>Un juego de movimiento y objetivos para seguir practicando la lógica de programación.</p><a class="boton boton-cazando" href="https://juegocazando-gold.vercel.app/" target="_blank" rel="noopener noreferrer">Jugar ahora <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer><span>© 2026 Henry Montalván · Curso JavaScript</span><span>Hecho con HTML + CSS + JavaScript <span aria-hidden="true">♥</span></span></footer>
+  </div>
+</body>
 </html>
